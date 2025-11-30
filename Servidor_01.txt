@@ -1,8 +1,9 @@
-# COMANDOS:
-# print:        imprime qual quer palavra no terminal
+:: COMANDOS:
+:: print:        imprime qual quer palavra no terminal
 print: Enter_01
 print: Enter_02
 print: Enter_03 draafafuh
 print: Eyyyyyyyyyyyyyyyyyyyyy
+
 
 
