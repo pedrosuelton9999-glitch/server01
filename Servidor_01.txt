@@ -1,11 +1,27 @@
-:: COMANDOS:
-:: print:        imprime qual quer palavra no terminal
+:: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-print: Enter_01
-print: Enter_02
-print: Enter_03 draafafuh
-print: Eyyyyyyyyyyyyyyyyyyyyy
+:: LISTAS DE COMANDOS / EXPLICAÇÔES PARA QUE SERVE
 
+:: print()          comando de tipo 01, imprime uma frase/palavra literal caso dentro de (""), uso de apenas () quando for usar comandos do tipo 02
+:: PMP: {Null}      comando de tipo 02, (Puxe_Memory_Perm) puxa a informação da memoria permanente que esta armazenada com base do numero em {Null}
+:: PMT: {Null}      comando de tipo 02, (Puxe_Memory_Temp) puxa a informação da memoria temporaria que esta armazenada com base do numero em {Null}
 
+:: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+:: COMANDOS ESSENCIAIS
 
+ID_For_Code: 00001
+Memory_Perm: {False} Null
+Memory_Temp: {False} Null :: COMANDOS ESSENCIAIS
+
+:: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+:: < <<<[ COMANDOS PARA O SCRIPT BASE INTERNO ]>>> >
+
+print("Enter_01")
+print("Enter_02")
+print("Enter_03")
+print(PMP)
+print(PMT)
+
+:: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
