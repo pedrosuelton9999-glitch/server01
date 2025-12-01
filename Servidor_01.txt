@@ -1,22 +1,26 @@
-:: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+:: ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+::                                                      LISTAS DE COMANDOS / EXPLICAÇÔES PARA QUE SERVE
+:: ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-:: LISTAS DE COMANDOS / EXPLICAÇÔES PARA QUE SERVE
+:: print()                                            comando de tipo 01, imprime uma frase/palavra literal caso dentro de (""), uso de apenas () quando for usar comandos do tipo 02.
+:: PMP                                                comando de tipo 02, (Puxe_Memory_Perm) puxa a informação da memoria permanente que esta armazenada com base do numero em {Null}.
+:: PMT                                                comando de tipo 02, (Puxe_Memory_Temp) puxa a informação da memoria temporaria que esta armazenada com base do numero em {Null}.
+:: PUN                                                comando de tipo 02, (Puxe_User_Name) puxa a informação do nome de usuario do windows, recomendado usar no [diretorio] do comando formar.
+:: formar[arqv][name.txt][diretorio][conteudo]        comando de tipo 03, [arqv] executa o comando de criação de arquivo, [name.txt] define o nome/extenção, [diretorio] define onde sera criado, [conteudo] define o conteudo.
 
-:: print()          comando de tipo 01, imprime uma frase/palavra literal caso dentro de (""), uso de apenas () quando for usar comandos do tipo 02
-:: PMP: {Null}      comando de tipo 02, (Puxe_Memory_Perm) puxa a informação da memoria permanente que esta armazenada com base do numero em {Null}
-:: PMT: {Null}      comando de tipo 02, (Puxe_Memory_Temp) puxa a informação da memoria temporaria que esta armazenada com base do numero em {Null}
 
-:: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-:: COMANDOS ESSENCIAIS
+:: ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+::                                                                    COMANDOS ESSENCIAIS
+:: ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ID_For_Code: 00001
 Memory_Perm: {False} Null
 Memory_Temp: {False} Null :: COMANDOS ESSENCIAIS
 
-:: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-:: < <<<[ COMANDOS PARA O SCRIPT BASE INTERNO ]>>> >
+:: ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+::                                                       < <<<[ COMANDOS PARA O SCRIPT BASE INTERNO ]>>> >
+:: ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 print("Enter_01")
 print("Enter_02")
@@ -24,6 +28,11 @@ print("Enter_03")
 print(PMP)
 print(PMT)
 
-:: ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+formar[arqv][teste_arqv_01.txt][C:Users\PUN\Desktop][conteudo-01]
+formar[arqv][teste_arqv_02.bat][C:Users\PUN\Desktop][conteudo-02]
+formar[arqv][teste_arqv_03][C:Users\PUN\Desktop][conteudo-03]
+
+:: ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
