@@ -6,8 +6,10 @@
 :: PMP                                                comando de tipo 02, (Puxe_Memory_Perm) puxa a informação da memoria permanente que esta armazenada com base do numero em {Null}.
 :: PMT                                                comando de tipo 02, (Puxe_Memory_Temp) puxa a informação da memoria temporaria que esta armazenada com base do numero em {Null}.
 :: PUN                                                comando de tipo 02, (Puxe_User_Name) puxa a informação do nome de usuario do windows, recomendado usar no [diretorio] do comando formar.
-:: formar[arqv][name.txt][diretorio][conteudo]        comando de tipo 03, [arqv] executa o comando de criação de arquivo, [name.txt] define o nome/extenção, [diretorio] define onde sera criado, [conteudo] define o conteudo.
+:: formar[arqv][name.txt][diretorio][conteudo]        comando de tipo 01, [arqv] executa o comando de criação de arquivo, [name.txt] define o nome/extenção, [diretorio] define onde sera criado, [conteudo] define o conteudo.
 
+:: loop[10]:                                          comando de tipo 03, o comando loop[X]: executa os comandos de tipo 1 em um loop de 0 a nX, caso X igual a 10, executará 11 vezes a linha de codigo do atribuida ao loop.
+:: random[0][10]                                      comando de tipo 02, o comando random[X][Y] é igual a um numero aleatorio maior ou igual do que X e menor ou igual do que Y podendo ser (>=X, <=Y).
 
 :: ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ::                                                                    COMANDOS ESSENCIAIS
@@ -33,6 +35,7 @@ formar[arqv][teste_arqv_05.bat][C:\Users\PUN\Desktop][conteudo-02]
 formar[arqv][teste_arqv_06][C:\Users\PUN\Desktop][conteudo-03]
 
 :: ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
